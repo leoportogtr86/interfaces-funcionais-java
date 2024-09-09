@@ -1,8 +1,10 @@
 package com.porto.models;
 
+import com.porto.interfaces.Info;
+
 import java.util.Objects;
 
-public class Produto {
+public class Produto implements Info {
     private String nome;
     private double preco;
 

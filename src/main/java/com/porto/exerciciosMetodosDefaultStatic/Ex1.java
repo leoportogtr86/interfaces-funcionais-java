@@ -6,7 +6,7 @@ public class Ex1 {
     public static void main(String[] args) {
         Person person = new Person("Joe", 41);
 
-        System.out.println(person.greetWithTitle("Joe"));;
+        System.out.println(person.greetWithTitle("Joe"));
     }
 }
 
